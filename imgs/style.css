@@ -143,6 +143,7 @@
 .view_product{
     margin: 30px 15px 20px 15px;
     border: none;
+    max-height: 20px;
     padding: 7px 20px;
     color: white;
     font-family: "Teko";
@@ -153,15 +154,7 @@
     outline: none;
     transition: 0.6s;
 }
-.view_product form{
-    cursor: pointer;
-    padding: 7px 30px;
-    margin: 10px 10px;
-    width: 200px;
-}
-.view_product:hover{
-    background: rgb(187, 54, 54);
-}
+
 #discount{
     display: inline-flex;
     transition: 0.4s;
